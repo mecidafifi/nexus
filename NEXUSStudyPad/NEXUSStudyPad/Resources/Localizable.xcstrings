@@ -1,0 +1,902 @@
+{
+  "sourceLanguage" : "tr",
+  "strings" : {
+    "%@ %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ %2$@"
+          }
+        }
+      }
+    },
+    "%@ • %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ • %2$@"
+          }
+        }
+      }
+    },
+    "%@ • %@–%@%@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ • %2$@–%3$@%4$@"
+          }
+        }
+      }
+    },
+    "%@ kaydını sil" : {
+
+    },
+    "%@, %@" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@"
+          }
+        }
+      }
+    },
+    "%lld" : {
+
+    },
+    "%lld eklendi • %lld güncellendi • %lld atlandı" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld eklendi • %2$lld güncellendi • %3$lld atlandı"
+          }
+        }
+      }
+    },
+    "%lld görevin %lld tanesi tamamlandı" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld görevin %2$lld tanesi tamamlandı"
+          }
+        }
+      }
+    },
+    "%lld/%lld • %lld%%" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$lld • %3$lld%%"
+          }
+        }
+      }
+    },
+    "Açıklama" : {
+
+    },
+    "Aktarım hatası" : {
+
+    },
+    "Aktif program kuralı yok." : {
+
+    },
+    "Apple Pencil çizim alanı" : {
+
+    },
+    "Atanmamış" : {
+
+    },
+    "Aynı kimlikli kayıtlar: %lld" : {
+
+    },
+    "Ayrı yerel PencilKit tuvali" : {
+
+    },
+    "Bağlantı" : {
+
+    },
+    "Bağlı kayıtlar silinmez; ders bağlantıları kaldırılır." : {
+
+    },
+    "Başlık" : {
+
+    },
+    "Başlık veya içerik ara" : {
+
+    },
+    "Belge başlığı" : {
+
+    },
+    "Belgeler" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المستندات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Documents"
+          }
+        }
+      }
+    },
+    "Bölümü açar" : {
+
+    },
+    "Bu çizim PDF dosyasını değiştirmez; seçili sayfaya bağlı yerel bir mürekkep katmanı olarak saklanır." : {
+
+    },
+    "Bu işlem geri alınamaz." : {
+
+    },
+    "Bu oturuma bağlı yerel ses kayıtları da silinir." : {
+
+    },
+    "Bu sayfaya çiz" : {
+
+    },
+    "Bugün" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اليوم"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today"
+          }
+        }
+      }
+    },
+    "Bugün için kayıtlı oturum yok." : {
+
+    },
+    "Bugün için son tarihli görev yok." : {
+
+    },
+    "Ders" : {
+
+    },
+    "Ders (isteğe bağlı)" : {
+
+    },
+    "Ders adı" : {
+
+    },
+    "Ders bilgileri" : {
+
+    },
+    "Ders defteri bölümü" : {
+
+    },
+    "Ders defteri bölümünü değiştirir" : {
+
+    },
+    "Ders kodu (isteğe bağlı)" : {
+
+    },
+    "Ders silinsin mi?" : {
+
+    },
+    "Ders veya kod ara" : {
+
+    },
+    "Dersi düzenle" : {
+
+    },
+    "Dersler" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المواد"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Courses"
+          }
+        }
+      }
+    },
+    "Duraklat" : {
+
+    },
+    "Durumu değiştirir" : {
+
+    },
+    "Düz metin / Markdown • %lld bayt" : {
+
+    },
+    "Düzenle" : {
+
+    },
+    "Files içinden sizin seçtiğiniz JSON önce tamamen doğrulanır. Önizleme ve açık onay olmadan hiçbir kayıt yazılmaz." : {
+
+    },
+    "Görev ara" : {
+
+    },
+    "Görev başlığı" : {
+
+    },
+    "Görev durumunu değiştirir" : {
+
+    },
+    "Görev silinsin mi?" : {
+
+    },
+    "Görevi düzenle" : {
+
+    },
+    "Görevler" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المهام"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tasks"
+          }
+        }
+      }
+    },
+    "Hata: %@" : {
+
+    },
+    "İçe aktar" : {
+
+    },
+    "İçe aktarma hatası" : {
+
+    },
+    "İçe aktarma önizlemesi" : {
+
+    },
+    "İnceleme" : {
+
+    },
+    "İzin ver ve başlat" : {
+
+    },
+    "JSON seç ve önizle" : {
+
+    },
+    "Kapat" : {
+
+    },
+    "Katılım" : {
+
+    },
+    "Kaydet" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        }
+      }
+    },
+    "Kaydı bitir" : {
+
+    },
+    "Kaynak" : {
+
+    },
+    "Kısa not" : {
+
+    },
+    "Mac aktarım ekranını açar; henüz dosya seçmez veya veri yazmaz" : {
+
+    },
+    "Mac'ten aktar" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيراد من Mac"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import from Mac"
+          }
+        }
+      }
+    },
+    "Mac'ten Başla" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ من Mac"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start from Mac"
+          }
+        }
+      }
+    },
+    "Mac'ten verileri aktar" : {
+
+    },
+    "NEXUS // HAFTA" : {
+
+    },
+    "Mevcut kayıt korunur; gelen eş kayıt yazılmaz." : {
+
+    },
+    "Mevcut StudyPad kayıtlarınızı JSON olarak Files'a kaydedin. Bu işlem belge/ses dosyalarını sessizce kopyalamaz." : {
+
+    },
+    "Mikrofon izni" : {
+
+    },
+    "Mikrofon yalnız siz kayıt düğmesine bastıktan ve açıklamayı onayladıktan sonra kullanılır. Kayıtlar cihazdaki uygulama alanında kalır." : {
+
+    },
+    "NEXUS // BUGÜN" : {
+
+    },
+    "NEXUS // STUDY PAD" : {
+
+    },
+    "NEXUS // YEREL AKTARIM" : {
+
+    },
+    "NEXUS Mac JSON" : {
+
+    },
+    "NEXUS Mac v1–v9 JSON: ders, çalışma görevi, program ve bağlantısız not eşlemesi" : {
+
+    },
+    "NEXUS Mac yedeğini seç" : {
+
+    },
+    "NEXUS Mac yedeğinizi Files içinden seçin; veriler doğrulama ve önizlemeden sonra yalnız açık onayınızla içe aktarılır." : {
+
+    },
+    "Not defteri" : {
+
+    },
+    "Not silinsin mi?" : {
+
+    },
+    "Notlar" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الملاحظات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notes"
+          }
+        }
+      }
+    },
+    "Notu açar" : {
+
+    },
+    "Öğretim elemanı (isteğe bağlı)" : {
+
+    },
+    "Onay, doğrulanmış kayıtları tek ModelContext kaydıyla birleştirir. Replace veya toplu silme yapılmaz." : {
+
+    },
+    "Onayla ve içe aktar" : {
+
+    },
+    "Önizleme" : {
+
+    },
+    "Oturum" : {
+
+    },
+    "Oturum (isteğe bağlı)" : {
+
+    },
+    "Oturum ara" : {
+
+    },
+    "Oturum ayrıntısı" : {
+
+    },
+    "Oturum başlığı" : {
+
+    },
+    "Oturum silinsin mi?" : {
+
+    },
+    "Oturumlar" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المحاضرات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lectures"
+          }
+        }
+      }
+    },
+    "Oturumu düzenle" : {
+
+    },
+    "PDF adını değiştir" : {
+
+    },
+    "PDF ara" : {
+
+    },
+    "PDF içe aktar" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استيراد PDF"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Import PDF"
+          }
+        }
+      }
+    },
+    "PDF ve çizimleri silinsin mi?" : {
+
+    },
+    "PDF, PencilKit ve ses ikili dosyaları JSON'a gömülmez" : {
+
+    },
+    "Politika" : {
+
+    },
+    "Sabitle" : {
+
+    },
+    "Sabitlendi" : {
+
+    },
+    "Sayfa %lld / %lld" : {
+      "localizations" : {
+        "tr" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Sayfa %1$lld / %2$lld"
+          }
+        }
+      }
+    },
+    "Sayfa %lld çizimi" : {
+
+    },
+    "Seçin" : {
+
+    },
+    "Seçtiğiniz PDF, yalnız bu uygulamanın yerel alanına kopyalanır." : {
+
+    },
+    "Ses kaydı başlat" : {
+
+    },
+    "Ses kaydı silinsin mi?" : {
+
+    },
+    "Ses yalnız bu oturum için, siz durdurana kadar kaydedilir. Dosya uygulamanın yerel alanında saklanır; ağ veya bulut kullanılmaz." : {
+
+    },
+    "Sil" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        }
+      }
+    },
+    "Sınırlar" : {
+
+    },
+    "Son tarih" : {
+
+    },
+    "Son tarih ekle" : {
+
+    },
+    "Study Pack dışa aktar" : {
+
+    },
+    "StudyPadTransfer v1" : {
+
+    },
+    "StudyPadTransfer v1: ders, program, oturum, metin notu ve görev" : {
+
+    },
+    "Sürdür" : {
+
+    },
+    "Tamam" : {
+
+    },
+    "Tamamlananları göster" : {
+
+    },
+    "Tarih ve saat" : {
+
+    },
+    "Toplam yerel ses alanı: %@. Kayıt silme geri alınamaz; yalnız seçilen dosya ve metadatası kaldırılır." : {
+
+    },
+    "Tür" : {
+
+    },
+    "Uygulama alanındaki PDF kopyası ve ona bağlı yerel çizimler kalıcı olarak silinir." : {
+
+    },
+    "Uzun not içeriği" : {
+
+    },
+    "Vazgeç" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "Yaklaşan oturum yok." : {
+
+    },
+    "Yalnız aynı UUID'li kayıt alanları güncellenir. Kayıtlar topluca silinmez." : {
+
+    },
+    "Yalnız görünen başlık değişir; yerel PDF dosyası korunur." : {
+
+    },
+    "Yeni ders" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مادة جديدة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New course"
+          }
+        }
+      }
+    },
+    "Yeni ders formunu açar" : {
+
+    },
+    "Yeni görev" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مهمة جديدة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New task"
+          }
+        }
+      }
+    },
+    "Yeni not" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظة جديدة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New note"
+          }
+        }
+      }
+    },
+    "Yeni oturum" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "محاضرة جديدة"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New lecture"
+          }
+        }
+      }
+    },
+    "Yeniden adlandır" : {
+
+    },
+    "Yerel aktarım" : {
+
+    },
+    "Aktif" : {
+
+    },
+    "Aynı gün ve saatte %lld başka program kuralı var. Kaydetmeden önce saatleri kontrol edin." : {
+
+    },
+    "Başlangıç saati" : {
+
+    },
+    "Başlangıç tarihi" : {
+
+    },
+    "Bitiş tarihi" : {
+
+    },
+    "Bitiş tarihi ekle" : {
+
+    },
+    "Bugün için ders veya oturum yok." : {
+
+    },
+    "Bugün ve önümüzdeki yedi gün arasında geçiş yapar" : {
+
+    },
+    "Bu ders için haftalık program kuralı oluşturur" : {
+
+    },
+    "Çakışma uyarısı" : {
+
+    },
+    "Çakışma uyarısı. Aynı gün ve saatte %lld başka program kuralı var." : {
+
+    },
+    "Çarşamba" : {
+
+    },
+    "Cuma" : {
+
+    },
+    "Cumartesi" : {
+
+    },
+    "Ders bulunamadı" : {
+
+    },
+    "Devre dışı" : {
+
+    },
+    "Geçerlilik" : {
+
+    },
+    "Görünüm" : {
+
+    },
+    "Gün" : {
+
+    },
+    "Hafta" : {
+
+    },
+    "Haftalık program" : {
+
+    },
+    "Haftalık tekrar" : {
+
+    },
+    "Pazar" : {
+
+    },
+    "Pazartesi" : {
+
+    },
+    "Perşembe" : {
+
+    },
+    "Planlanmış ders veya görev yok." : {
+
+    },
+    "Program ekle" : {
+
+    },
+    "Program günü, saati veya tarih aralığı geçersiz." : {
+
+    },
+    "Program kuralı silinsin mi?" : {
+
+    },
+    "Program kuralı yok." : {
+
+    },
+    "Program kuralını düzenler" : {
+
+    },
+    "Program kuralını sil" : {
+
+    },
+    "Programı düzenle" : {
+
+    },
+    "Salı" : {
+
+    },
+    "Sınıf veya konum (isteğe bağlı)" : {
+
+    },
+    "Süre: %lld dakika" : {
+
+    },
+    "Tekrarlanan ders saatleri" : {
+
+    },
+    "Yaklaşan ders veya oturum yok." : {
+
+    },
+    "Yalnız seçili haftalık program kuralı silinir; ders ve geçmiş oturumlar korunur." : {
+
+    },
+    "Yer" : {
+
+    },
+    "%lld. Ders • %@" : {
+
+    },
+    "%lld. Hafta" : {
+
+    },
+    "%lld defter • %lld ses" : {
+
+    },
+    "%lld ders" : {
+
+    },
+    "%lld ses kaydı" : {
+
+    },
+    "1. dersi ekle" : {
+
+    },
+    "2. dersi ekle" : {
+
+    },
+    "Aynı haftadaki birinci ve ikinci dersi ayrı ayrı açabilir, her birine kendi ses kaydını ve ders defterini ekleyebilirsiniz." : {
+
+    },
+    "Boş" : {
+
+    },
+    "Bu alana öğretim elemanının anlattıklarını, örnekleri ve sınav notlarını yazın. Metin yalnız bu hafta ve ders oturumuna bağlı olarak cihazda saklanır." : {
+
+    },
+    "Bu ders %lld haftaya ayrıldı. Her hafta yalnız gerçekten aldığınız ders oturumlarını ekleyin; ses ve ders defteri o oturumda birlikte kalır." : {
+
+    },
+    "Bu dersin %lld. haftasında %lld. ders zaten var. Mevcut dersi açın veya farklı bir ders numarası seçin." : {
+
+    },
+    "Bu hafta için henüz ders kaydı yok." : {
+
+    },
+    "Bu haftaya ders ekle" : {
+
+    },
+    "Ders defteri" : {
+
+    },
+    "Ders defteri başlangıç notu (isteğe bağlı)" : {
+
+    },
+    "Ders defteri dolu" : {
+
+    },
+    "Ders defteri bölümü" : {
+
+    },
+    "Ders defteri 1 MB yerel güvenlik sınırını aşıyor." : {
+
+    },
+    "Ders: %lld" : {
+
+    },
+    "Dönem defteri" : {
+
+    },
+    "Dönem haftası: %lld" : {
+
+    },
+    "Dönem konumu" : {
+
+    },
+    "Hafta: %lld" : {
+
+    },
+    "Haftalar" : {
+
+    },
+    "Kaydedildi" : {
+
+    },
+    "Kaydedilemedi" : {
+
+    },
+    "Kaydediliyor…" : {
+
+    },
+    "Ses kaydını ve ders defterini açar" : {
+
+    },
+    "Şimdi kaydet" : {
+
+    },
+    "Yeni ders oturumu" : {
+
+    },
+    "Yerel ses dosyası kalıcı olarak silinir." : {
+
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,13 @@
+.DS_Store
+build/
+.build/
+DerivedData/
+work/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.swp
+*.store
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal

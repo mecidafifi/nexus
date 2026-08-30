@@ -1,0 +1,548 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild build -project NEXUSStudyPad.xcodeproj -scheme NEXUSStudyPad -configuration Debug -destination generic/platform=iOS -derivedDataPath .build/Phase2Device CODE_SIGNING_ALLOWED=NO
+
+Build settings from command line:
+    CODE_SIGNING_ALLOWED = NO
+
+ComputePackagePrebuildTargetDependencyGraph
+
+Prepare packages
+
+CreateBuildRequest
+
+SendProjectDescription
+
+CreateBuildOperation
+
+ComputeTargetDependencyGraph
+note: Building targets in dependency order
+note: Target dependency graph (1 target)
+    Target 'NEXUSStudyPad' in project 'NEXUSStudyPad' (no dependencies)
+
+GatherProvisioningInputs
+
+CreateBuildDescription
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -v -E -dM -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -x c -c /dev/null
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --dry-run --output-directory /Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build /Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Localizable.xcstrings
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --print-asset-tag-combinations --output-format xml1 /Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Assets.xcassets
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/usr/bin/actool --version --output-format xml1
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc --version
+
+ExecuteExternalTool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld -version_details
+
+Build description signature: eefb700c83d33177bd8cd84eaf808667
+Build description path: /Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/XCBuildData/eefb700c83d33177bd8cd84eaf808667.xcbuilddata
+CreateBuildDirectory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    builtin-create-build-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products
+
+ClangStatCache /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/SDKStatCaches.noindex/iphoneos26.5-23F81a-32daed1954a7d5dd0789fcaf2a9bb78b.sdkstatcache
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang-stat-cache /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -o /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/SDKStatCaches.noindex/iphoneos26.5-23F81a-32daed1954a7d5dd0789fcaf2a9bb78b.sdkstatcache
+
+CreateBuildDirectory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    builtin-create-build-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex
+
+CreateBuildDirectory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    builtin-create-build-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/ExplicitPrecompiledModules
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    builtin-create-build-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/ExplicitPrecompiledModules
+
+CreateBuildDirectory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    builtin-create-build-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos
+
+CreateBuildDirectory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    builtin-create-build-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad-1461429eb36fd68e752e3d5e378957f1-VFS-iphoneos/all-product-headers.yaml
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad.xcodeproj
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad-1461429eb36fd68e752e3d5e378957f1-VFS-iphoneos/all-product-headers.yaml
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/empty-NEXUSStudyPad.plist (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/empty-NEXUSStudyPad.plist
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.hmap (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.hmap
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.DependencyStaticMetadataFileList (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.DependencyStaticMetadataFileList
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.DependencyMetadataFileList (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.DependencyMetadataFileList
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-project-headers.hmap (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-project-headers.hmap
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.LinkFileList (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.LinkFileList
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftFileList (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftFileList
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_const_extract_protocols.json (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_const_extract_protocols.json
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-OutputFileMap.json (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-OutputFileMap.json
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftConstValuesFileList (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftConstValuesFileList
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-own-target-headers.hmap (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-own-target-headers.hmap
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-generated-files.hmap (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-generated-files.hmap
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-all-target-headers.hmap (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-all-target-headers.hmap
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-all-non-framework-target-headers.hmap (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-all-non-framework-target-headers.hmap
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-DebugDylibPath-normal-arm64.txt (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-DebugDylibPath-normal-arm64.txt
+
+WriteAuxiliaryFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-DebugDylibInstallName-normal-arm64.txt (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    write-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-DebugDylibInstallName-normal-arm64.txt
+
+MkDir /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /bin/mkdir -p /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app
+
+Ld /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/__preview.dylib normal (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -Os -L/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -F/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -install_name @rpath/NEXUSStudyPad.debug.dylib -Xlinker -dead_strip -rdynamic -Xlinker -dependency_info -Xlinker /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_dependency_info.dat -o /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/__preview.dylib
+
+MkDir /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/thinned (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /bin/mkdir -p /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/thinned
+
+GenerateAssetSymbols /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Assets.xcassets (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Assets.xcassets --compile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app --output-format human-readable-text --notices --warnings --export-dependency-info /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_dependencies --output-partial-info-plist /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_generated_info.plist --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region tr --target-device ipad --minimum-deployment-target 17.0 --platform iphoneos --bundle-identifier com.nexus.studypad --generate-swift-asset-symbol-extensions NO --generate-swift-asset-symbols /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols.swift --generate-objc-asset-symbols /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols.h --generate-asset-symbol-index /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/* com.apple.actool.compilation-results */
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols-Index.plist
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols.h
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols.swift
+
+
+MkDir /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/unthinned (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /bin/mkdir -p /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/unthinned
+
+CompileXCStrings /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/ /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Localizable.xcstrings (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcstringstool compile --output-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Localizable.xcstrings
+
+CompileAssetCatalogVariant thinned /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Assets.xcassets (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/usr/bin/actool /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Assets.xcassets --compile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/thinned --output-format human-readable-text --notices --warnings --export-dependency-info /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_dependencies_thinned --output-partial-info-plist /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_generated_info.plist_thinned --app-icon AppIcon --accent-color AccentColor --compress-pngs --enable-on-demand-resources YES --development-region tr --target-device ipad --minimum-deployment-target 17.0 --platform iphoneos
+/* com.apple.actool.compilation-results */
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_generated_info.plist_thinned
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/thinned/AppIcon60x60@2x.png
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/thinned/AppIcon76x76@2x~ipad.png
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/thinned/Assets.car
+
+
+CopyStringsFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/en.lproj/Localizable.strings /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/en.lproj/Localizable.strings (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/en.lproj -- /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/en.lproj/Localizable.strings
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/en.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+CopyStringsFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/ar.lproj/Localizable.strings /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/ar.lproj/Localizable.strings (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-copyStrings --validate --outputencoding binary --outfilename Localizable.strings --outdir /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/ar.lproj -- /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/ar.lproj/Localizable.strings
+/Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/ar.lproj/Localizable.strings:1:1: note: detected encoding of input file as Unicode (UTF-8) (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriver NEXUSStudyPad normal arm64 com.apple.xcode.tools.swift.compiler (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-SwiftDriver -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name NEXUSStudyPad -Onone @/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftFileList -DDEBUG -strict-concurrency\=targeted -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -target arm64-apple-ios17.0 -g -module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Index.noindex/DataStore -swift-version 5 -I /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -F /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64 -c -j11 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/SDKStatCaches.noindex/iphoneos26.5-23F81a-32daed1954a7d5dd0789fcaf2a9bb78b.sdkstatcache -output-file-map /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -sdk-module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_const_extract_protocols.json -Xcc -iquote -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-generated-files.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-own-target-headers.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-all-target-headers.hmap -Xcc -iquote -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-project-headers.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/include -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources-normal/arm64 -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/arm64 -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-Swift.h -working-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad -experimental-emit-module-separately -disable-cmo
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_AvailabilityInternal-8SZKG6NGEM6UB7J1IP99U5ZVG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_stdarg-81Q6TMRFBKRM9KRHLX38RWMK4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_stdbool-3RYQ60027L8EFHWCCT0U53THN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/DeveloperToolsSupport-6HJRKP26LMIR8Q9S1PZ34AITD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/ptrcheck-2ZJLSJO9ZNBKF7OF7VOTCS9GC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_float-84X2HTP7JU5AUKK66N4UYR4QR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_stddef-CP7QZERQCW1RBTZYL4MGCIUSA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/SwiftShims-8SNT2972QMJPSQFIBZGPBN6WS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_SwiftConcurrencyShims-60FNCAXHQ3BSLUKZXSKOYXVGG.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/ptrauth-98ZNM4YLPHHYK5QQM6T1LPKCL.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_DarwinFoundation1-R70UMTFE31D5KUHV6C8G4S0N.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_limits-6GQKDVU8H8TDDPGXJ1YD94WX3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_DarwinFoundation2-DTWLPWVZBWLYEP4Y1RUYP5Q53.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_tgmath-8CW4YMBAP79X72GNWXPZU4Z4C.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_stdint-84CTD5P9XD73QPVF8OLP46900.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/sys_types-8Z26D5DVX5148BF32GLO68IV7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_DarwinFoundation3-26XGO6FXIO893EMTSV8VGFSV3.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_stdatomic-2X2PMOWEIG3RDVDVTEI7Q0M06.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_intrinsics-930YH1485AOVF3JL7CIXT8AA.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/_Builtin_inttypes-3L6JNCMQU6RW8QONAY4JQGRY.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Darwin-19S8G7YJQK7W9G2AKPNH71C6K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/simd-13ZMM5MPXJPIUO29PDWFG2JK1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/MachO-73BYUM9NS1MVCZRS6ERK3DIJS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/ObjectiveC-ELE8M7GWDPRWM92OHIGUGD36O.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/os_object-8PH7VF1LYXVBIEBITUR6DSRMB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/os_workgroup-7F7DW5RI59K0P58PUG7CA2HGZ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Dispatch-97VE0T37ZJ7L67CCKU8HDQ3NJ.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/dnssd-Y36ZYL0WE9TTS41EFPY0VD6H.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/XPC-97Z8GQB534MPG0BBYBKWS8OU0.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreFoundation-7YYGS85W32ZENQG7TR42ACP64.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Spatial-9H3QMLBPT21XNWP3UMS9BM5I1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/os-25YTB3JZHYGFSH0EOL2G1K1CO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreAudioTypes-EM5EZQP2F2NVH5W9V7BS7IVT9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Security-CWXPFKKR8AR1YDN9FHLYW9B3X.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CFNetwork-8W7HVC2H3C14LJULRI2VOK4LP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreGraphics-22DDCUAV2Y3VTCHRL97FL7BE2.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreAudio-AWG82AJ922LPJ9AD6OMQ0JXDM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Foundation-9KJMGJN8O3T5MBKEBAMW7TD8L.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/ImageIO-768HMC1KKCNK26LQVNTUQSHNT.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreText-15NEM0MS07H7D054Q116ZB4J8.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/IOSurface-DERWI8LGYKZ23BK9NF1QPB2DD.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/ModelIO-QQWCDFIWURFM9MPBB24ET7DR.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreTransferable-A7DIHT8EL6XQ6BOK6BGJOF3RV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreData-3CSZPXMSS1N063THHSM1ZH1J7.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Accessibility-9RICVEKBI08MJDSHJH8FGYNAM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/DataDetection-DO266PCE96RZG31F7C80DP8IV.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/UIUtilities-A1JRVFFJZTI3L9AMU4UPUS7LP.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Symbols-F3LRESY8XUVFAC1FYC7AAU3J1.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Network-E7P2HOKHT5ZJP901GIF81B6Z4.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/FileProvider-EO96QY99HBCMZZHH3CHUYV2LO.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreMIDI-5UTI41TNBYZUU20YKUS33KI4U.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/UserNotifications-9ZV81FKQZDIU5XPE70252NFFH.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Metal-DZHSYIW37XBH35W8C5M2NQ3UB.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/OpenGLES-7HP6C315DUFINH65EZ7PD1ODX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/UniformTypeIdentifiers-8MSO15OJSGILLP0TJILUAL840.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/OSLog-CVKEKAGH1A62FWA65OW8N1ROE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/AudioToolbox-58NSGOHMM30QIPDEPIRMFDXN.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/AVRouting-8VJT700SK0W8DZ1PA37QDASIE.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreVideo-BO7XLV75CJ0VJ92Q8GMZAC6MS.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/QuartzCore-63VYN58TINMS2SX9PL5L8RIY9.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreMedia-2EX4V9SAGFAB4N5SQ24HX44OU.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/CoreImage-AEGWTKHZNPO9EVFVAAJGT5CNC.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/SwiftUICore-601NQ8D9Y5X8XEW8VE6434242.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/MediaToolbox-BZYYNTU2LNRRY7TWWND8KA2C6.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/AVFAudio-E4JA5RR10TB4S8IOJUDY3RB18.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/UIKit-DU3OPUS2OOZ48EOZAKQ89GBEX.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/AVFoundation-AWQNKNNE0W0OSF0JCIQOX9KBI.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/SwiftUI-B41PQ36UJ5Y8OZ62D75HVLJ5K.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/PencilKit-39C2W8WRI5NV20CG299Z3IGP5.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/MetalKit-4MLV2ACRD1WCGRH5IBEPV4KCM.pcm
+
+SwiftExplicitDependencyGeneratePcm arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/PDFKit-2U0YUVPZZR6YMZAR3EYHNKFNM.pcm
+
+LinkAssetCatalog /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Resources/Assets.xcassets (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-linkAssetCatalog --thinned /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/thinned --thinned-dependencies /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_dependencies_thinned --thinned-info-plist-content /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_generated_info.plist_thinned --unthinned /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_output/unthinned --unthinned-dependencies /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_dependencies_unthinned --unthinned-info-plist-content /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_generated_info.plist_unthinned --output /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app --plist-output /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_generated_info.plist
+note: Emplaced /Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Assets.car (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+note: Emplaced /Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/AppIcon76x76@2x~ipad.png (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+note: Emplaced /Users/mecid/Desktop/OKUL /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/AppIcon60x60@2x.png (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+ProcessInfoPlistFile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Info.plist /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/empty-NEXUSStudyPad.plist (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-infoPlistUtility /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/empty-NEXUSStudyPad.plist -producttype com.apple.product-type.application -genpkginfo /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -additionalcontentfile /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/assetcatalog_generated_info.plist -requiredArchitecture arm64 -o /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Info.plist
+
+SwiftEmitModule normal arm64 Emitting\ module\ for\ NEXUSStudyPad (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+EmitSwiftModule normal arm64 (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ NoteViews.swift,\ TaskViews.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Notes/NoteViews.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Tasks/TaskViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Notes/NoteViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Tasks/TaskViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ AppRoute.swift,\ PadDesignSystem.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Core/AppRoute.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/DesignSystem/PadDesignSystem.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Core/AppRoute.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/DesignSystem/PadDesignSystem.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ GeneratedAssetSymbols.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/GeneratedAssetSymbols.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ CourseViews.swift,\ DocumentViews.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Courses/CourseViews.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Documents/DocumentViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Courses/CourseViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Documents/DocumentViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ DocumentImportService.swift,\ StudyPadTransferService.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Services/DocumentImportService.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Services/StudyPadTransferService.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Services/DocumentImportService.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Services/StudyPadTransferService.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ TransferView.swift,\ StudyModels.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Transfer/TransferView.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Models/StudyModels.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Transfer/TransferView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Models/StudyModels.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ PencilCanvasView.swift,\ TerminalStates.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Components/PencilCanvasView.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Components/TerminalStates.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Components/PencilCanvasView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Components/TerminalStates.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ PersistenceController.swift,\ AudioRecordingService.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Persistence/PersistenceController.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Services/AudioRecordingService.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Persistence/PersistenceController.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Services/AudioRecordingService.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ HomeViewModel.swift,\ LectureViews.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Home/HomeViewModel.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Lectures/LectureViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Home/HomeViewModel.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Lectures/LectureViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ PDFKitViews.swift,\ HomeView.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Documents/PDFKitViews.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Home/HomeView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Documents/PDFKitViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/Features/Home/HomeView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 Compiling\ NEXUSStudyPadApp.swift,\ RootView.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/App/NEXUSStudyPadApp.swift /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/App/RootView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/App/NEXUSStudyPadApp.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftCompile normal arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/NEXUSStudyPad/App/RootView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    
+
+SwiftDriverJobDiscovery normal arm64 Emitting module for NEXUSStudyPad (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriver\ Compilation\ Requirements NEXUSStudyPad normal arm64 com.apple.xcode.tools.swift.compiler (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-Swift-Compilation-Requirements -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name NEXUSStudyPad -Onone @/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftFileList -DDEBUG -strict-concurrency\=targeted -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -target arm64-apple-ios17.0 -g -module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Index.noindex/DataStore -swift-version 5 -I /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -F /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64 -c -j11 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/SDKStatCaches.noindex/iphoneos26.5-23F81a-32daed1954a7d5dd0789fcaf2a9bb78b.sdkstatcache -output-file-map /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -sdk-module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_const_extract_protocols.json -Xcc -iquote -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-generated-files.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-own-target-headers.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-all-target-headers.hmap -Xcc -iquote -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-project-headers.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/include -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources-normal/arm64 -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/arm64 -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-Swift.h -working-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad -experimental-emit-module-separately -disable-cmo
+
+SwiftDriverJobDiscovery normal arm64 Compiling GeneratedAssetSymbols.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftMergeGeneratedHeaders /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/NEXUSStudyPad-Swift.h /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-Swift.h (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-swiftHeaderTool -arch arm64 /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-Swift.h -o /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/NEXUSStudyPad-Swift.h
+
+Copy /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/arm64-apple-ios.swiftmodule /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftmodule (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftmodule /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/arm64-apple-ios.swiftmodule
+
+Copy /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/arm64-apple-ios.swiftdoc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftdoc (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftdoc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/arm64-apple-ios.swiftdoc
+
+Copy /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/arm64-apple-ios.abi.json /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.abi.json (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.abi.json /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/arm64-apple-ios.abi.json
+
+Copy /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftsourceinfo (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks -rename /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftsourceinfo /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo
+
+SwiftDriverJobDiscovery normal arm64 Compiling PersistenceController.swift, AudioRecordingService.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling NEXUSStudyPadApp.swift, RootView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling AppRoute.swift, PadDesignSystem.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PDFKitViews.swift, HomeView.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling TransferView.swift, StudyModels.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling HomeViewModel.swift, LectureViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling NoteViews.swift, TaskViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling DocumentImportService.swift, StudyPadTransferService.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling PencilCanvasView.swift, TerminalStates.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriverJobDiscovery normal arm64 Compiling CourseViews.swift, DocumentViews.swift (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+SwiftDriver\ Compilation NEXUSStudyPad normal arm64 com.apple.xcode.tools.swift.compiler (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-Swift-Compilation -- /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc -module-name NEXUSStudyPad -Onone @/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftFileList -DDEBUG -strict-concurrency\=targeted -enable-bare-slash-regex -enable-experimental-feature DebugDescriptionMacro -sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -target arm64-apple-ios17.0 -g -module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -Xfrontend -serialize-debugging-options -enable-testing -index-store-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Index.noindex/DataStore -swift-version 5 -I /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -F /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -emit-localized-strings -emit-localized-strings-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64 -c -j11 -enable-batch-mode -incremental -Xcc -ivfsstatcache -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/SDKStatCaches.noindex/iphoneos26.5-23F81a-32daed1954a7d5dd0789fcaf2a9bb78b.sdkstatcache -output-file-map /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-OutputFileMap.json -use-frontend-parseable-output -save-temps -no-color-diagnostics -explicit-module-build -module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/SwiftExplicitPrecompiledModules -clang-scanner-module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -sdk-module-cache-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex -serialize-diagnostics -emit-dependencies -emit-module -emit-module-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftmodule -validate-clang-modules-once -clang-build-session-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/ModuleCache.noindex/Session.modulevalidation -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/swift-overrides.hmap -emit-const-values -Xfrontend -const-gather-protocols-file -Xfrontend /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_const_extract_protocols.json -Xcc -iquote -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-generated-files.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-own-target-headers.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-all-target-headers.hmap -Xcc -iquote -Xcc /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-project-headers.hmap -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/include -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources-normal/arm64 -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources/arm64 -Xcc -I/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/DerivedSources -emit-objc-header -emit-objc-header-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-Swift.h -working-directory /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad -experimental-emit-module-separately -disable-cmo
+
+Ld /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad.debug.dylib normal (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -Os -L/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -L/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -F/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/EagerLinkingTBDs/Debug-iphoneos -F/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -filelist /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.LinkFileList -install_name @rpath/NEXUSStudyPad.debug.dylib -Xlinker -rpath -Xlinker /usr/lib/swift -Xlinker -rpath -Xlinker @executable_path/Frameworks -Xlinker -dead_strip -Xlinker -object_path_lto -Xlinker /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_lto.o -rdynamic -Xlinker -dependency_info -Xlinker /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_dependency_info.dat -fobjc-link-runtime -L/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos -L/usr/lib/swift -Xlinker -add_ast_path -Xlinker /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.swiftmodule @/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad-linker-args.resp -Xlinker -alias -Xlinker _main -Xlinker ___debug_main_executable_dylib_entry_point -o /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad.debug.dylib
+
+ConstructStubExecutorLinkFileList /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-ExecutorLinkFileList-normal-arm64.txt (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    construct-stub-executor-link-file-list /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad.debug.dylib /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor_no_swift_entry_point.a /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/lib/libPreviewsJITStubExecutor.a --output /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-ExecutorLinkFileList-normal-arm64.txt
+note: Using stub executor library with Swift entry point. (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+
+Ld /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad normal (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -Xlinker -reproducible -target arm64-apple-ios17.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk -Os -L/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -F/Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos -Xlinker -rpath -Xlinker @executable_path -Xlinker -rpath -Xlinker @executable_path/Frameworks -rdynamic -e ___debug_blank_executor_main -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_dylib -Xlinker /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-DebugDylibPath-normal-arm64.txt -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __debug_instlnm -Xlinker /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-DebugDylibInstallName-normal-arm64.txt -Xlinker -filelist -Xlinker /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad-ExecutorLinkFileList-normal-arm64.txt /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad.debug.dylib -o /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad
+
+CopySwiftLibs /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-swiftStdLibTool --copy --verbose --scan-executable /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad.debug.dylib --scan-folder /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Frameworks --scan-folder /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/PlugIns --scan-folder /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/SystemExtensions --scan-folder /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Extensions --platform iphoneos --toolchain /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --destination /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Frameworks --strip-bitcode --strip-bitcode-tool /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip --emit-dependency-info /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/SwiftStdLibToolInputDependencies.dep --filter-for-swift-os --back-deploy-swift-span
+Ignoring --strip-bitcode because --sign was not passed
+
+ExtractAppIntentsMetadata (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsmetadataprocessor --toolchain-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain --module-name NEXUSStudyPad --sdk-root /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS26.5.sdk --xcode-version 17F113 --platform-family iOS --deployment-target 17.0 --bundle-identifier com.nexus.studypad --output /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app --target-triple arm64-apple-ios17.0 --binary-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/NEXUSStudyPad --dependency-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad_dependency_info.dat --stringsdata-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/ExtractedAppShortcutsMetadata.stringsdata --source-file-list /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftFileList --metadata-file-list /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.DependencyMetadataFileList --static-metadata-file-list /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.DependencyStaticMetadataFileList --swift-const-vals-list /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/Objects-normal/arm64/NEXUSStudyPad.SwiftConstValuesFileList --compile-time-extraction --deployment-aware-processing --validate-assistant-intents --no-app-shortcuts-localization
+2026-08-30 00:29:57.002 appintentsmetadataprocessor[59274:855263] Starting appintentsmetadataprocessor export
+2026-08-30 00:29:57.023 appintentsmetadataprocessor[59274:855263] warning: Metadata extraction skipped. No AppIntents.framework dependency found.
+
+AppIntentsSSUTraining (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/appintentsnltrainingprocessor --infoplist-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Info.plist --temp-dir-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/ssu --bundle-id com.nexus.studypad --product-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app --extracted-metadata-path /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Metadata.appintents --metadata-file-list /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Intermediates.noindex/NEXUSStudyPad.build/Debug-iphoneos/NEXUSStudyPad.build/NEXUSStudyPad.DependencyMetadataFileList --source-file /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app/Info.plist --archive-ssu-assets
+2026-08-30 00:29:57.043 appintentsnltrainingprocessor[59277:855266] Parsing options for appintentsnltrainingprocessor
+2026-08-30 00:29:57.043 appintentsnltrainingprocessor[59277:855266] Starting AppIntents SSU YAML Generation
+2026-08-30 00:29:57.044 appintentsnltrainingprocessor[59277:855266] No AppShortcuts found - Skipping.
+
+RegisterExecutionPolicyException /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-RegisterExecutionPolicyException /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app
+
+Validate /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    builtin-validationUtility /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app -shallow-bundle -infoplist-subpath Info.plist
+
+Touch /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app (in target 'NEXUSStudyPad' from project 'NEXUSStudyPad')
+    cd /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad
+    /usr/bin/touch -c /Users/mecid/Desktop/OKUL\ /projeler/NEXUS/NEXUSStudyPad/.build/Phase2Device/Build/Products/Debug-iphoneos/NEXUSStudyPad.app
+
+** BUILD SUCCEEDED **
+
